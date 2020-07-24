@@ -27,7 +27,7 @@ public class SeleniumDemoCookies {
         String chromeriverPath = "/Users/jason/Documents/opt/java_workspace/demo_knowledge_summary/files/chromedriver";
         System.setProperty("webdriver.chrome.driver",chromeriverPath);
         //测试连接
-        String url  = "https://piaoju.jd.com/";
+        String url  = "https://www.baidu.com/";
         //启动webdriver
         WebDriver webDriver = new ChromeDriver();
         //浏览器跳转测试连接
